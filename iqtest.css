@@ -62,7 +62,7 @@ h1 {
 }
 .arrow img {
     width: 30px;
-    position: relative;
-    bottom: 320px;
-    right: 340px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
 }
