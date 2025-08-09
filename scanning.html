@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Face Recognition Scanner</title>
+  <link rel="stylesheet" href="scanning.css">
+</head>
+<body>
+  <div id="wrapper">
+    <video id="video" autoplay muted playsinline></video>
+    <canvas id="overlay"></canvas>
+    <div id="scan-line"></div>
+  </div>
+  <p id="status">Loading....</p>
+
+  <script src="https://unpkg.com/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script src="scanning.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  margin: 0; padding: 0;
+  background: linear-gradient(to bottom,#0d0d0d,#2c2c2c);
+  color: #acadac;
+  font-family: 'Orbitron', monospace, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+  text-shadow: 0 0 10px #555555;
+}
+
+small {
+  font-size: 1rem;
+  color: #555555;
+  margin-bottom: 2em;
+  display: block;
+}
+
+.result-box {
+  background: #000000;
+  border: 2px solid #acadac;
+  border-radius: 12px;
+  padding: 2em 3em;
+  width: 320px;
+  box-shadow: 0 0 15px #555555;
+}
+
+.data-line {
+  font-size: 1.3rem;
+  margin: 1em 0;
+}
+
+.advice {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 1.5em;
+  color: #acadac;
+  min-height: 3em;
+}
+
+.bar-container {
+  margin-top: 2em;
+  color: antiquewhite;
+}
+
+.bar-label {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 0.3em;
+  
+}
+
+.bar {
+  background: #0d1117;
+  border: 1px solid #acadac;
+  border-radius: 8px;
+  height: 16px;
+  margin-bottom: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(to bottom,#0d0d0d,#ffffff);
+  width: 0;
+  border-radius: 8px 0 0 8px;
+  transition: width 1.5s ease-in-out;
+}
+
+button {
+  margin-top: 2.5em;
+  background: transparent;
+  color: #acadac;
+  border: 2px solid #555555;
+  padding: 0.8em 2em;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #2f2f2f;
+  color: #0d1117;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
