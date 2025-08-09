@@ -1,8 +1,9 @@
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 body {
-  margin: 0; padding: 0;
-  background: linear-gradient(to bottom,#0d0d0d,#2c2c2c);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0d0d0d, #2c2c2c);
   color: #acadac;
   font-family: 'Orbitron', monospace, sans-serif;
   display: flex;
@@ -57,7 +58,6 @@ small {
   text-align: left;
   font-size: 0.9rem;
   margin-bottom: 0.3em;
-  
 }
 
 .bar {
@@ -72,7 +72,7 @@ small {
 
 .bar-fill {
   height: 100%;
-  background: linear-gradient(to bottom,#0d0d0d,#ffffff);
+  background: linear-gradient(to bottom, #0d0d0d, #ffffff);
   width: 0;
   border-radius: 8px 0 0 8px;
   transition: width 1.5s ease-in-out;
@@ -104,5 +104,63 @@ button:hover {
 @keyframes fadeIn {
   to {
     opacity: 1;
+  }
+}
+
+/* ========== Responsive Media Queries ========== */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .result-box {
+    width: 90%;
+    padding: 1.5em 2em;
+  }
+
+  .data-line {
+    font-size: 1.1rem;
+  }
+
+  .advice {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.7em 1.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  small {
+    font-size: 0.9rem;
+  }
+
+  .result-box {
+    padding: 1em 1.2em;
+  }
+
+  .data-line {
+    font-size: 1rem;
+  }
+
+  .advice {
+    font-size: 0.95rem;
+    min-height: 2em;
+  }
+
+  .bar-label {
+    font-size: 0.8rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.6em 1.5em;
   }
 }
