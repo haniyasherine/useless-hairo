@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #0d0d0d,#2c2c2c);
+    background: linear-gradient(to bottom, #0d0d0d, #2c2c2c);
     color: #fff;
     margin: 0;
     padding: 0;
@@ -19,18 +19,19 @@ body {
     margin-top: 100px;
     text-align: center;
     position: relative;
-    right: 240px;
+    right: 240px; /* ❌ Not good for mobile */
 }
+
+/* Heading Text */
 .head p {
     color: white;
-  font-size: 54px;
-  left: 360px;
-  position: relative;
-  bottom: 280px;
-
+    font-size: 54px;
+    position: relative;
+    left: 360px; /* ❌ Not good for mobile */
+    bottom: 280px;
 }
 
-
+/* Quiz Section */
 #quiz-screen {
     text-align: center;
 }
@@ -40,6 +41,7 @@ h1 {
     margin-bottom: 25px;
 }
 
+/* Quiz Options */
 #options {
     display: grid;
     gap: 15px;
@@ -60,9 +62,58 @@ h1 {
     transform: scale(1.02);
     border-color: #00ff88;
 }
+
+/* Back Arrow */
 .arrow img {
     width: 30px;
     position: fixed;
     top: 50px;
     left: 50px;
+}
+
+/* ========== Responsive Styles ========== */
+@media (max-width: 768px) {
+    .container {
+        padding: 60px 30px;
+        margin-top: 60px;
+        right: 0; /* Remove offset */
+    }
+
+    .head p {
+        font-size: 36px;
+        left: 0; /* Center it */
+        bottom: 0;
+        margin-top: -100px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .option {
+        font-size: 1em;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 40px 20px;
+    }
+
+    .head p {
+        font-size: 28px;
+        margin-top: -60px;
+    }
+
+    .option {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    .arrow img {
+        width: 24px;
+        top: 20px;
+        left: 20px;
+    }
 }
