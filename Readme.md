@@ -50,10 +50,10 @@ For Software:
 ![Screenshot1](hairoooooo.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](IQQQQ.png)
+![Screenshot2](d:\Screenshots\IQQQQ.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](RESULTT.png)
+![Screenshot3](d:\Screenshots\RESULTT.png)
 *Add caption explaining what this shows*
 
 # Diagrams
