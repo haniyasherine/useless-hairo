@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](d:\Screenshots\hairoooooo.png)
+![Screenshot1](hairoooooo.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](d:\Screenshots\IQQQQ.png)
+![Screenshot2](IQQQQ.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](d:\Screenshots\RESULTT.png)
+![Screenshot3](RESULTT.png)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -97,3 +97,4 @@ Made with ❤️ at TinkerHub Useless Projects
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
