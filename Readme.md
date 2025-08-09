@@ -1,20 +1,20 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [HAIRO] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Twinfinity]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Haniya Sherine] - [EMEA College of arts and science]
+- Member 2: [Murshida KK] - [EMEA College of arts and science]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+[This tool estimates your head hair count based on your IQ level — where higher IQ means fewer hairs and lower IQ means more! It’s a fun, quirky way to mix brainpower with hair science. Try it out and see your ‘smart hair’ status!]
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
@@ -25,8 +25,8 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- [html,js,css]
+- []
 - [Libraries used]
 - [Tools used]
 
@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](d:\Screenshots\hairoooooo.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](d:\Screenshots\IQQQQ.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](d:\Screenshots\RESULTT.png)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -88,9 +88,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Haniya sherine]: [first and second interface]
+- [Murshida KK]: [third and fourth interface]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
