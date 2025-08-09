@@ -1,5 +1,5 @@
 body {
-    background:linear-gradient(to bottom,#0d0d0d,#2c2c2c);
+    background: linear-gradient(to bottom, #0d0d0d, #2c2c2c);
     color: white;
     margin: 0;
     padding: 0;
@@ -11,34 +11,33 @@ body {
 
 .container {
     text-align: center;
-    padding: 170px; 
+    padding: 170px;
     border-radius: 10px;
     align-items: center;
+    max-width: 90%;
+    box-sizing: border-box;
 }
 
 h2 {
-    font-size:40px;
+    font-size: 40px;
     position: relative;
     top: 50px;
     right: 150px;
     color: #a7a6a4;
-    font-weight: 400px;
-    font-family: 'orbitron',monospace,sans-serif;
+    font-weight: 400;
+    font-family: 'orbitron', monospace, sans-serif;
 }
 
 .quote {
     display: inline;
-
     font-style: italic;
     top: 40px;
     margin: 10px 0;
     right: 150px;
     font-size: 30px;
     opacity: 0.9;
-    font-family: 'orbitron',monospace,sans-serif;
+    font-family: 'orbitron', monospace, sans-serif;
     position: relative;
-   
-
 }
 
 button {
@@ -61,11 +60,68 @@ button:hover {
     background: #2f2f2f;
     transform: scale(1.05);
 }
+
 .heading img {
     display: inline-block;
     align-items: center;
     width: 300px;
-   left: 600px;
     position: relative;
     top: -220px;
+    left: 600px;
+}
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+        top: 20px;
+        right: 0;
+        text-align: center;
+    }
+
+    .quote {
+        font-size: 20px;
+        top: 10px;
+        right: 0;
+        display: block;
+    }
+
+    button {
+        top: 60px;
+        right: 0;
+        margin-top: 20px;
+    }
+
+    .heading img {
+        width: 200px;
+        top: -100px;
+        left: 0;
+    }
+
+    .container {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 22px;
+    }
+
+    .quote {
+        font-size: 18px;
+    }
+
+    button {
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    .heading img {
+        width: 150px;
+    }
+
+    .container {
+        padding: 60px 15px;
+    }
 }
